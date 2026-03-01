@@ -92,11 +92,11 @@ p_T^{(student)} = \mathrm{softmax}(z_S / T).
 $$  
   
 Функция потерь:  
+
+$$
+\mathcal{L} =  \alpha \, \mathrm{CE}(y, p_S) + (1-\alpha) T^2 \, \mathrm{KL}(p_T^{(teacher)} \| p_T^{(student)})
 $$  
-\mathcal{L} =  
-\alpha \, \mathrm{CE}(y, p_S)  
-+ (1-\alpha) T^2 \, \mathrm{KL}(p_T^{(teacher)} \| p_T^{(student)}).  
-$$  
+
 Где:  
 - $\mathrm{CE}$ — кросс-энтропия,  
 - $\mathrm{KL}$ — дивергенция Кульбака–Лейблера,  
