@@ -96,7 +96,7 @@ $$
 $$
 \mathcal{L} =  \alpha \, \mathrm{CE}(y, p_S) + (1-\alpha) T^2 \, \mathrm{KL}(p_T^{(teacher)} \| p_T^{(student)})
 $$  
-
+i
 Где:  
 - $\mathrm{CE}$ — кросс-энтропия,  
 - $\mathrm{KL}$ — дивергенция Кульбака–Лейблера,  
